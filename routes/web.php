@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//php-ai
+Route::get('ai','AiController@index');
